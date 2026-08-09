@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>EV Charging Handshake</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="ev-charging-handshake">
+
+    <!-- Charging Station -->
+    <section class="charging-station">
+
+      <div class="station-header">
+        <span class="station-label">EV CHARGING</span>
+        <span class="connection-status">
+          <span class="status-light"></span>
+          CONNECTING
+        </span>
+      </div>
+
+      <!-- Charging Port -->
+      <div class="charging-area">
+
+        <div class="charging-port">
+          <div class="port-inner"></div>
+        </div>
+
+        <!-- Charging Connector -->
+        <div class="charging-connector">
+
+          <div class="connector-head">
+            <span class="connector-pin"></span>
+            <span class="connector-pin"></span>
+            <span class="connector-pin"></span>
+          </div>
+
+          <div class="connector-body">
+            <div class="connector-latch"></div>
+          </div>
+
+          <div class="connector-cable"></div>
+
+        </div>
+
+        <!-- Energy Flow -->
+        <div class="energy-flow">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+      </div>
+
+      <!-- Charging Information -->
+      <div class="charging-info">
+
+        <div class="info-item">
+          <span>BATTERY</span>
+          <strong>82%</strong>
+        </div>
+
+        <div class="info-item">
+          <span>POWER</span>
+          <strong>48.2 kW</strong>
+        </div>
+
+        <div class="info-item">
+          <span>STATUS</span>
+          <strong>HANDSHAKE</strong>
+        </div>
+
+      </div>
+
+      <!-- Progress -->
+      <div class="connection-progress">
+
+        <span>SECURE CONNECTION</span>
+
+        <div class="progress-track">
+          <div class="progress-fill"></div>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
